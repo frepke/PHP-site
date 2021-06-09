@@ -18,6 +18,6 @@ jobs:
 
     - name: Build the php-site Docker image
       run: |
-        docker build . --tag ghcr.io/frepke/php-site:latest
-        docker run ghcr.io/frepke/php-site:latest
-        docker push ghcr.io/frepke/php-site:latest
+        docker build . --tag ghcr.io/Frepke/PHP-site:latest
+        docker run ghcr.io/Frepke/PHP-site:latest
+        docker push ghcr.io/Frepke/PHP-site:latest
